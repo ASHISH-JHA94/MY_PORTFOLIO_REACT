@@ -48,11 +48,11 @@ export default function HeroSection(){
         <div className="heading subHeading">
           I am a <span className="role"></span>
         </div>
-        <p className="desc text-2xl">
+        <p className="desc md:text-2xl text-xl md:max-w-[70%] max-w-[100%]">
           I’m a software developer and Comptetive Programmer here is my portfolio website. Here
           you’ll learn about my journey as a software developer.
         </p>
-        <div className="flex flex-col md:flex-row gap-8px md:gap-16">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-16">
         <div className="btn">
           <a href="#contactMe">Hire Me</a>
         </div>
