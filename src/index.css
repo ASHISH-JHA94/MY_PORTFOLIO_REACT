@@ -507,7 +507,7 @@ nav ul li a:hover {
 
 /* Contact Me Section Start  */
 .contactMeSection {
-  width: 100%;
+  
   background-color: #e7e7e7;
 }
 
@@ -520,7 +520,7 @@ nav ul li a:hover {
 }
 
 .container h3 {
-  font-size: 3em;
+  font-size: 2em;
   color: #343d68aa;
 }
 

@@ -29,7 +29,7 @@ export default function ContactMe() {
 
   return (
     <section className="contactMeSection" id="contactMe">
-      <div className="container mx-auto max-w-screen-xl flex flex-col justify-center items-center gap-2">
+      <div className="container mx-auto  max-w-[80%] md:max-w-screen-xl flex flex-col justify-center items-center gap-2">
         <h2>Contact Me</h2>
         
         <h3>Questions, Thoughts,Or Just Want To Say Hello?</h3>
