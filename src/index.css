@@ -33,7 +33,7 @@ nav ul li a {
   text-decoration: none;
   color: #1f1f1f;
   transition: font-weight 0.3s;
-  font-size: 20px;
+  
   line-height: 17px;
   display: inline-block;
 }
