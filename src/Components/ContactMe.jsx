@@ -2,13 +2,11 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {  toast } from 'react-hot-toast';
 
-
-
-
-
-
 export default function ContactMe() {
   const form = useRef();
+  
+
+
 
   const sendEmail = (e) => {
     e.preventDefault();
