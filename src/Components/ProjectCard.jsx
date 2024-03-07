@@ -6,8 +6,9 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectCard = ({ number, direction, title, description, skills, backgroundImage }) => {
   return (
-    <div className={`projectCard ${direction === 'left' ? 'leftNumber' : 'rightNumber'}`} style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className="projectNumber">{number}</div>
+    <div className={`relative projectCard ${direction === 'left' ? 'leftNumber' : 'rightNumber'} bg-cover bg-center`} style={{ backgroundImage: `url(${backgroundImage})` }}>
+
+<div className="absolute top-10 right-10 text-white text-6xl md:text-9xl font-semibold hidden z-10 transition duration-800 projectNumber">{number}</div>
       <div className="projectContent">
         <div className="projectSkillsContainer  flex flex-wrap justify-start gap-3">
           {skills.map((skill, index) => (
