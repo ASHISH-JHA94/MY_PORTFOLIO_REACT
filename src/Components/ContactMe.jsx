@@ -12,7 +12,7 @@ export default function ContactMe() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_hnl728g","template_drgnobh", form.current, "GzIa3EVGe2uApduQj")
+      .sendForm(import.meta.env.VITE_SECRET_CODE,import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_USER_ID)
       .then(
         (result) => {
           console.log('Email sent successfully:', result.text);

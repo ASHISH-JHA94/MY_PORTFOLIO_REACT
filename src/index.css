@@ -8,6 +8,8 @@
 }
 
 
+
+
 .favicon img{
   background-color: #e7e7e7;
   color:#e7e7e7;
@@ -458,11 +460,7 @@ nav ul li a:hover {
   font-size: 90px;
 }
 
-.skillSubHeading {
-  margin-top: 1rem;
-  width: 85%;
-  text-align: justify;
-}
+
 .skillSubHeading p {
   margin: 15px 0;
 }

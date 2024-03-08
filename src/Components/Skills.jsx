@@ -32,12 +32,12 @@ export default function Skills() {
         <h2 className="skillHeading">
           <span>M</span>e and <br />MyTech Stack
         </h2>
-        <div className="skillSubHeading">
+        <div className="skillSubHeading mt-4 w-full md:w-[85%] text-justify text-lg">
           <p>
             Hi Everyone My name is Ashish Jha I am a Full Stack Web Developer
             I have been working for last 3 Years and Currently I am working
             with a Budding Startup in USA and a full Time Freelancer. Currently
-            I am working on NextJs and Making Beautiful UI-UX are my fey
+            I am working on NextJs and Making Beautiful UI-UX are my key
             features
           </p>
           <p>
@@ -54,7 +54,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="rightSkillContainer md:w-[50%] flex flex-row">
+      <div className="rightSkillContainer  w-[100%] md:w-[50%] flex flex-row">
         <img src={HTMLImage} alt="" className="skillsLogo" />
         <img src={CSSImage} alt="" className="skillsLogo" />
         <img src={JavascriptImage} alt="" className="skillsLogo" />
