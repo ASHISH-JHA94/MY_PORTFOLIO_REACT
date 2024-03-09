@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope as farEnvelope } from '@fortawesome/free-regular-svg-icons';
+
 
 export default function Footer() {
     return (

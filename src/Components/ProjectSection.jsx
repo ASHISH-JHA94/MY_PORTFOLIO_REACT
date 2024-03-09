@@ -30,8 +30,8 @@ const ProjectsSection = () => {
         ReduxImage,
         VercelImage,
       ],
-      title: "Tint & Orange",
-      description: "It is a car modification company which provides sheets to protect your car from scratches.",
+      title: "Wander Lust",
+      description: "select hotels based on reviews and ratings, facilitating informed decisions on accommodations",
       backgroundImage: "/Project1.png" 
     },
     {
@@ -47,8 +47,8 @@ const ProjectsSection = () => {
         ReduxImage,
         VercelImage,
       ],
-      title: "Breaking Copyrights",
-      description: "A platform to download copyright-free YouTube music.",
+      title: "Airlust",
+      description: "A platform to book your Flight Ticket with ease.",
       backgroundImage: "/Project2.png" 
     },
     {
@@ -63,8 +63,8 @@ const ProjectsSection = () => {
         NextJsCircleImage,
         VercelImage,
       ],
-      title: "Isha Tattva",
-      description: "A website for an interior designer to showcase her works and samples.",
+      title: "Wellnest",
+      description: "A website to keep you healthy.",
       backgroundImage: "/Project3.png" 
     },
     {
@@ -76,8 +76,8 @@ const ProjectsSection = () => {
         TailwindImage,
         VercelImage,
       ],
-      title: "Granit",
-      description: "An architectural website to plan your building or home (Hebrew Language).",
+      title: "Tarang Tutorial",
+      description: "A tuting website to stream online educational content.",
       backgroundImage: "/Project4.png" 
     },
     
