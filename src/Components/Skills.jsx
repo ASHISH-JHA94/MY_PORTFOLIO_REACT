@@ -34,20 +34,11 @@ export default function Skills() {
         </h2>
         <div className="skillSubHeading mt-4 w-full md:w-[85%] text-justify text-lg">
           <p>
-            Hi Everyone My name is Ashish Jha I am currently a second year student 
-            Pursuing Computer Sciennce and Engineering From Sardar Vallahbhai National Institute
+            Hi Everyone My name is Ashish Jha and I am currently a second year student 
+            Pursuing Computer Sciennce and Engineering From Sardar Vallahbhai National Institute of Technology.Here are my Skills.
           </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
-            doloremque aspernatur, maiores voluptatum minus laudantium?
-            Perspiciatis accusamus minima porro dolores necessitatibus, magni
-            dolorem et qui veniam nulla sequi molestiae maxime.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-            quidem quos ullam veritatis voluptates tenetur qui ipsa nulla
-            culpa itaque?
-          </p>
+          
+          
         </div>
       </div>
 
