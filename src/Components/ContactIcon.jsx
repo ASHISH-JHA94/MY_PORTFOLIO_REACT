@@ -8,7 +8,7 @@ export default function ContactIcon(){
     return(
         <div className='flex flex-row  gap-8 md:gap-12'>
         <IconButton
-        href="https://github.com/ASHISH-JHA94/Wanderlust.git"
+        href="https://github.com/ASHISH-JHA94"
         target="_blank"
         title="GitHub"
         sx={{ '& svg': { fontSize: 50, color: 'black' } }}
@@ -18,7 +18,7 @@ export default function ContactIcon(){
       </IconButton>
       
       <IconButton
-        href="YOUR_LINKEDIN_URL"
+        href="https://www.linkedin.com/in/ashish-jha-25854b256/"
         target="_blank"
         title="LinkedIn"
         sx={{ '& svg': { fontSize: 50, color: 'blue' } }}
@@ -28,7 +28,7 @@ export default function ContactIcon(){
       </IconButton>
       
       <IconButton
-        href="YOUR_LEETCODE_URL"
+        href="https://leetcode.com/ashish_jha1234/"
         target="_blank"
         title="LeetCode"
         sx={{ '& svg': { fontSize: 45, color: 'yellow', backgroundColor: 'black' } }}
@@ -38,7 +38,7 @@ export default function ContactIcon(){
       </IconButton>
       
       <IconButton
-        href="YOUR_GFG_URL"
+        href="https://auth.geeksforgeeks.org/user/ajha9yo0x/"
         target="_blank"
         title="GeeksforGeeks"
         sx={{ '& svg': { fontSize: 50, color: 'green' } }}

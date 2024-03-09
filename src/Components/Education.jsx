@@ -8,17 +8,19 @@ const EducationTimeline = () => {
   // Sample constant data for educational timeline
   const educationData = [
     {
-      date: "2015 - 2019",
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of XYZ",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      date: "2022-2026",
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "NIT SURAT",
+      description: "I am currently in 2nd year and eagerly exploring different field in Computer Science with CGPA-9.08.",
     },
+    
     {
-      date: "2019 - 2021",
-      degree: "Master of Science in Information Technology",
-      institution: "ABC College",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      date: "2018-2022",
+      degree: "10th and 12th",
+      institution: "Rps Public School",
+      description: "completed my 10th with 95.6% and 12th with 93.2%.Secured AIR-8722 in JEE-Mains and AIR-8789 in JEE-Advance.",
     },
+    
     // Add more educational entries as needed
   ];
 
@@ -30,13 +32,13 @@ const EducationTimeline = () => {
           <VerticalTimelineElement
             key={index}
             className="vertical-timeline-element--education"
-            dateClassName="text-black text-sm font-medium" // Apply dateClassName here
+            dateClassName="text-white md:text-black text-xl font-bold" // Apply dateClassName here
             date={item.date}
             iconStyle={{ background: '#4b5563', color: '#fff', scale: 0.4 }}
             contentStyle={{ background: 'black', borderRadius: '10px', padding: '20px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)', color: '#fff', textColor: 'cyan-300' }}
             icon={<FaGraduationCap />}
           >
-            <h3 className="text-2xl font-semibold mb-2 text-cyan-300">{item.degree}</h3>
+            <h3 className="text-xl font-semibold mb-2 text-cyan-300">{item.degree}</h3>
             <h4 className="text-lg font-medium mb-2 text-cyan-300">{item.institution}</h4>
             <p className="text-gray-300">{item.description}</p>
             <motion.div

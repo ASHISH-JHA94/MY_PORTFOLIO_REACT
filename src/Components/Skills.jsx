@@ -34,11 +34,8 @@ export default function Skills() {
         </h2>
         <div className="skillSubHeading mt-4 w-full md:w-[85%] text-justify text-lg">
           <p>
-            Hi Everyone My name is Ashish Jha I am a Full Stack Web Developer
-            I have been working for last 3 Years and Currently I am working
-            with a Budding Startup in USA and a full Time Freelancer. Currently
-            I am working on NextJs and Making Beautiful UI-UX are my key
-            features
+            Hi Everyone My name is Ashish Jha I am currently a second year student 
+            Pursuing Computer Sciennce and Engineering From Sardar Vallahbhai National Institute
           </p>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
@@ -60,7 +57,7 @@ export default function Skills() {
         <img src={JavascriptImage} alt="" className="skillsLogo" />
         <img src={ReactImage} alt="" className="skillsLogo" />
         <img src={NodeJsImage} alt="" className="skillsLogo" />
-        <img src={NextImage} alt="" className="skillsLogo" />
+        {/* <img src={NextImage} alt="" className="skillsLogo" /> */}
         <img src={ReduxImage} alt="" className="skillsLogo" />
         <img src={TailwindImage} alt="" className="skillsLogo" />
         <img src={BootstrapImage} alt="" className="skillsLogo" />
@@ -68,13 +65,13 @@ export default function Skills() {
         <img src={ExpressImage} alt="" className="skillsLogo" />
         <img src={GitImage} alt="" className="skillsLogo" />
         <img src={GithubImage} alt="" className="skillsLogo" />
-        <img src={GraphqlImage} alt="" className="skillsLogo" />
+        {/* <img src={GraphqlImage} alt="" className="skillsLogo" /> */}
         <img src={MongoDBImage} alt="" className="skillsLogo" />
         <img src={VercelImage} alt="" className="skillsLogo" />
         <img src={ChartJsImage} alt="" className="skillsLogo" />
-        <img src={BashImage} alt="" className="skillsLogo" />
-        <img src={DockerImage} alt="" className="skillsLogo" />
-        <img src={K8sImage} alt="" className="skillsLogo" />
+        {/* <img src={BashImage} alt="" className="skillsLogo" /> */}
+        {/* <img src={DockerImage} alt="" className="skillsLogo" />
+        <img src={K8sImage} alt="" className="skillsLogo" /> */}
       </div>
     </section>
   );

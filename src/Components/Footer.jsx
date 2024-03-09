@@ -1,28 +1,44 @@
-export default function Footer(){
-    return(
-        <footer>
-            <div className="container footerContainer">
-                <div className="footerFadedText">John Doe</div>
-                <div className="linkContainer">
-                <div>
-                    <a href="#projects">Projects</a>
-                </div>
-                <div>
-                    <a href="#skills">Skills</a>
-                </div>
-                <div>
-                    <a href="#contactMe">Contact Me</a>
-                </div>
-                </div>
-                <div className="iconContainer">
-                <i className="fa-brands fa-linkedin icon"></i>
-                <i className="fa-brands fa-github icon"></i>
-                <i className="fa-brands fa-twitter icon"></i>
-                <i className="fa-brands fa-instagram icon"></i>
-                <i className="fa-regular fa-envelope icon"></i>
-                </div>
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope as farEnvelope } from '@fortawesome/free-regular-svg-icons';
+
+export default function Footer() {
+    return (
+      <footer className="bg-gray-900 text-white py-4">
+        <div className="container mx-auto px-4">
+          <div className="mb-10 flex justify-center relative">
+            <div className="footerFadedText d-none d-md-block text-4xl md:text-7xl md:absolute md:left-0 ">Ashish Jha</div>
+          </div>
+          <div className="mb-10 flex justify-center">
+            <div className="flex space-x-10">
+              <div className="linkContainer">
+                <a href="#projects" className="text-xl text-gray-300 hover:text-white transition-colors duration-300">Projects</a>
+              </div>
+              <div className="linkContainer">
+                <a href="#skills" className="text-xl text-gray-300 hover:text-white transition-colors duration-300">Skills</a>
+              </div>
+              <div className="linkContainer">
+                <a href="#contactMe" className="text-xl text-gray-300 hover:text-white transition-colors duration-300">Contact Me</a>
+              </div>
             </div>
-       </footer>
-    )
-    
-}
+          </div>
+          <div className="flex justify-center">
+            <div className="iconContainer">
+              <a href="https://www.linkedin.com/in/ashish-jha-25854b256/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} className="icon text-white text-3xl mr-5 hover:text-gray-300 transition-colors duration-300" />
+              </a>
+              <a href="ttps://github.com/ASHISH-JHA94" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} className="icon text-white text-3xl mr-5 hover:text-gray-300 transition-colors duration-300" />
+              </a>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faTwitter} className="icon text-white text-3xl mr-5 hover:text-gray-300 transition-colors duration-300" />
+              </a>
+              <a href="https://www.instagram.com/ashishjha94023/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faInstagram} className="icon text-white text-3xl hover:text-gray-300 transition-colors duration-300" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    );
+  }

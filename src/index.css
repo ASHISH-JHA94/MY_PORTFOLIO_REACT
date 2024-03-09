@@ -384,12 +384,7 @@ nav ul li a:hover {
   right: 5%;
 }
 
-/* .projectSkillsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 60%;
-  gap: 1rem;
-} */
+
 
 .projectSkill {
   width: 40px;
@@ -495,6 +490,12 @@ nav ul li a:hover {
   transition: all 0.5s;
 }
 
+@media (max-width: 768px) {
+  .skillsLogo {
+    width: 50px;
+  }
+}
+
 .skillsLogo:hover {
   transform: scale(1.2);
 }
@@ -587,9 +588,7 @@ footer {
 
 .footerFadedText {
   font-size: 5em;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  
   color: #535c87;
   user-select: none;
 }
