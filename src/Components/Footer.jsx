@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="iconContainer mb-24">
+            <div className="iconContainer mb-24 md:mb-0">
               <a href="https://www.linkedin.com/in/ashish-jha-25854b256/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} className="icon text-white text-3xl mr-5 hover:text-gray-300 transition-colors duration-300" />
               </a>
