@@ -23,11 +23,11 @@ const ProjectsSection = () => {
         CSSImage,
         JavascriptImage,
         ExpressImage,
-        NextJsCircleImage,
+        
         TailwindImage,
         NodeJsImage,
         MongoDBImage,
-        ReduxImage,
+        
         VercelImage,
       ],
       title: "Wander Lust",
@@ -42,10 +42,13 @@ const ProjectsSection = () => {
         HTMLImage,
         CSSImage,
         JavascriptImage,
-        NextJsCircleImage,
+        NodeJsImage,
+        ExpressImage,
+        
+        
         TailwindImage,
-        ReduxImage,
-        VercelImage,
+        
+        
       ],
       title: "Airlust",
       description: "A platform to book your Flight Ticket with ease.",
@@ -59,9 +62,7 @@ const ProjectsSection = () => {
         HTMLImage,
         CSSImage,
         JavascriptImage,
-        ExpressImage,
-        NextJsCircleImage,
-        VercelImage,
+        
       ],
       title: "Wellnest",
       description: "A website to keep you healthy.",
@@ -72,7 +73,11 @@ const ProjectsSection = () => {
       number: "04",
       direction: "left",
       skills: [
-        NextJsCircleImage,
+        HTMLImage,
+        CSSImage,
+        NodeJsImage,
+        MongoDBImage,
+        ExpressImage,
         TailwindImage,
         VercelImage,
       ],
