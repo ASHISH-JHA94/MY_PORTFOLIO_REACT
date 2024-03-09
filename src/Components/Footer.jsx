@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className="bg-gray-900 text-white py-4">
         <div className="container mx-auto px-4">
           <div className="mb-10 flex justify-center relative">
-            <div className="footerFadedText d-none d-md-block text-4xl md:text-7xl md:absolute md:left-0 ">Ashish Jha</div>
+            <div className="footerFadedText d-none d-md-block text-3xl md:text-7xl md:absolute md:left-0 ">Ashish Jha</div>
           </div>
           <div className="mb-10 flex justify-center">
             <div className="flex space-x-10">
