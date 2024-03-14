@@ -14,7 +14,7 @@ const ProjectCard = ({ number, direction, title, description, skills, background
           {skills.map((skill, index) => (
             <img
               key={index}
-              className="projectSkill object-fit-cover max-w-full h-auto md:max-w-[60%]"
+              className="projectSkill object-fit-cover max-w-full h-auto md:max-w-[60%] md:size-10 size-5"
               src={skill}
               alt=""
             />
