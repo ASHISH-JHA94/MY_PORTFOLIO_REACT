@@ -20,8 +20,8 @@ const ProjectCard = ({ number, direction, title, description, skills, background
             />
           ))}
         </div>
-        <h2 className="projectHeading">{title}</h2>
-        <p className="projectSubHeading">{description}</p>
+        <h2 className="projectHeading text-6xl">{title}</h2>
+        <p className="projectSubHeading md:text-2xl text-base">{description}</p>
         <div className="btnGroup">
           <button className="btn btnProject p-1 md:p-4">Read More</button>
           <IconButton
