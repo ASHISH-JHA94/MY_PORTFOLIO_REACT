@@ -24,7 +24,7 @@ const ProjectsSection = () => {
       direction: "right",
       skills: [HTMLImage, CSSImage, JavascriptImage, ExpressImage, TailwindImage, NodeJsImage, MongoDBImage, ThreeJsImage, GitImage],
       title: "Design With Spark",
-      description: "AI-driven T-shirt design platform with admin dashboard and design suggestion chatbot. 2nd place in a hackathon, reduced costs by 50%, increased sales by 30%.",
+      description: "AI-driven T-shirt design platform with admin dashboard and design suggestion chatbot. 2nd place in a hackathon",
       backgroundImage: "/spark.png",
       deployedLink: "https://design-with-spark.vercel.app/",
     },
