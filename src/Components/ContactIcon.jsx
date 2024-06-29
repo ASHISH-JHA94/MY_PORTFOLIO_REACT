@@ -3,6 +3,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LeetCodeIcon from '@mui/icons-material/School';
 import GeeksforGeeksIcon from '@mui/icons-material/Code';
+import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 export default function ContactIcon(){
     return(
@@ -31,10 +33,10 @@ export default function ContactIcon(){
         href="https://leetcode.com/ashish_jha1234/"
         target="_blank"
         title="LeetCode"
-        sx={{ '& svg': { fontSize: 45, color: 'yellow', backgroundColor: 'black' } }}
+        sx={{ '& svg': { fontSize: 45, color: 'black', } }}
         className='hover:scale-125 shadow-md shadow-black'
       >
-        <LeetCodeIcon />
+        <SiLeetcode/>
       </IconButton>
       
       <IconButton
@@ -44,7 +46,7 @@ export default function ContactIcon(){
         sx={{ '& svg': { fontSize: 50, color: 'green' } }}
         className='hover:scale-125 shadow-md shadow-black'
       >
-        <GeeksforGeeksIcon />
+        <SiGeeksforgeeks />
       </IconButton>
         </div>
     )

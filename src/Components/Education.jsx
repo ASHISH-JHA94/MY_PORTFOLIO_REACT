@@ -5,23 +5,19 @@ import { FaGraduationCap } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const EducationTimeline = () => {
-  // Sample constant data for educational timeline
   const educationData = [
     {
       date: "2022-2026",
       degree: "Bachelor of Technology in Computer Science",
       institution: "NIT SURAT",
-      description: "I am currently in 2nd year and eagerly exploring different field in Computer Science with CGPA-9.08.",
+      description: "Currently in 2nd year, exploring fields in Computer Science with CGPA-9.08.",
     },
-    
     {
       date: "2018-2022",
       degree: "10th and 12th",
       institution: "Rps Public School",
-      description: "completed my 10th with 95.6% and 12th with 93.2%.Secured AIR-8722 in JEE-Mains and AIR-8789 in JEE-Advance.",
+      description: "Completed 10th with 95.6% and 12th with 93.2%. Secured AIR-8722 in JEE-Mains and AIR-8789 in JEE-Advance.",
     },
-    
-    // Add more educational entries as needed
   ];
 
   return (
@@ -32,10 +28,9 @@ const EducationTimeline = () => {
           <VerticalTimelineElement
             key={index}
             className="vertical-timeline-element--education"
-            dateClassName="text-white md:text-black text-xl font-bold" // Apply dateClassName here
-            date={item.date}
-            iconStyle={{ background: '#4b5563', color: '#fff', scale: 0.4 }}
-            contentStyle={{ background: 'black', borderRadius: '10px', padding: '20px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)', color: '#fff', textColor: 'cyan-300' }}
+            date={<span className="text-white md:text-black text-xl font-bold">{item.date}</span>}
+            iconStyle={{ background: '#4b5563', color: '#fff' }}
+            contentStyle={{ background: 'black', borderRadius: '10px', padding: '20px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)', color: '#fff' }}
             icon={<FaGraduationCap />}
           >
             <h3 className="text-xl font-semibold mb-2 text-cyan-300">{item.degree}</h3>
@@ -53,8 +48,7 @@ const EducationTimeline = () => {
         ))}
       </VerticalTimeline>
     </section>
-  )
-
+  );
 }
 
 export default EducationTimeline;
