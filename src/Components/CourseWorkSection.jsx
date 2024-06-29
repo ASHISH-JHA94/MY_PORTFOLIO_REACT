@@ -1,6 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from '@mui/material';
 import { motion } from 'framer-motion';
+import { FaStar } from 'react-icons/fa';
 
 const Item = ({ children }) => (
   <motion.div
@@ -13,19 +14,27 @@ const Item = ({ children }) => (
 );
 
 const courses = [
-  'Data structure And Algorithm',
-  'Design And Analysis Of Algorithm',
-  'Database And Management System',
-  'Discrete Mathematics',
-  'Web Development',
-  'Computer Networks',
-  'Operating System',
-  'Python',
-  'Artificial Intelligence',
-  'Object Oriented Programming',
-  'C',
-  'C++'
+  { name: 'Data structure And Algorithm', rating: 3 },
+  { name: 'Design And Analysis Of Algorithm', rating: 3 },
+  { name: 'Database And Management System', rating: 2 },
+  { name: 'Discrete Mathematics', rating: 1 },
+  { name: 'Web Development', rating: 3 },
+  { name: 'Computer Networks', rating: 2 },
+  { name: 'Operating System', rating: 3 },
+  { name: 'Python', rating: 2 },
+  { name: 'Artificial Intelligence', rating: 3 },
+  { name: 'Object Oriented Programming', rating: 3 },
+  { name: 'C', rating: 2 },
+  { name: 'C++', rating: 3 },
 ];
+
+const getRatingStars = (rating) => {
+  const stars = [];
+  for (let i = 0; i < rating; i++) {
+    stars.push(<FaStar key={i} className='text-yellow-300 mx-1' />);
+  }
+  return stars;
+};
 
 const CourseWorkSection = () => {
   const isSmallScreen = useMediaQuery('(max-width:600px)');
@@ -42,16 +51,12 @@ const CourseWorkSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              {course}
+              {course.name}
             </motion.h3>
-            <motion.p
-              className='text-gray-300 text-sm'
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 + 0.2 }}
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </motion.p>
+            <div className='flex items-center justify-center mb-2'>
+              {getRatingStars(course.rating)}
+            </div>
+            
           </Item>
         ))}
       </div>
