@@ -15,7 +15,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div
-    className={`relative projectCard bg-cover bg-center ${
+    className={`relative projectCard bg-cover bg-center w-3/4 h-[600px]  ${
       direction === "left" ? "leftNumber" : "rightNumber"
     }`}
       style={{ backgroundImage: `url(${backgroundImage})` }}
