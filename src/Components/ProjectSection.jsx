@@ -93,7 +93,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="projectSection">
       <h2 className="projectTitle mb-4 text-6xl">Projects</h2>
-      <div className="projectContainer mx-6">
+      <div className="projectContainer mx-8">
         {projects.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
